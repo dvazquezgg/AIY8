@@ -1,0 +1,113 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: darkslateblue;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: darkslateblue;
+}
+
+
+#main {
+    font-family: Roboto, sans-serif;
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+    display: block;
+    float: left;
+}
+
+#main h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main_picture {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#video_container {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#nav_links {
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.question {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkslateblue;
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+#secondary {
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+    display: block;
+    float: right;
+    font-family: Roboto, sans-serif;
+    background-color: darkseagreen;
+    color: #333;
+}
+#quantum_image {
+    width: 400px;
+    border-radius: 5px;
+}
+
+#main .card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#takeaways {
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#takeaways_ul {
+    list-style: none;
+    padding: 0;
+}
+
+#references {
+    margin-top: 20px;
+}
